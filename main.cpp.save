@@ -1,0 +1,29 @@
+#include <GL/gl.h>
+#include <GL/glut.h>
+
+void display_callback();
+void init()
+{
+glClearColor()
+
+}
+
+int main(int argc,char **argv)
+{
+
+    glutInit(&argc,argv); //initializing glut
+    glutInitDisplayMode(GLUT_RGB | GLUT_DOUBLE);
+    glutInitWindowSize(500,500);
+    glutCreateWindow("Snake");
+    glutDisplayFunc(display_callback);
+    glutMainLoop();
+    return 0;
+
+}
+
+void display_callback()
+{
+    glClearColor()
+    glutSwapBuffers(); //swap buffer for double buffer
+
+}
